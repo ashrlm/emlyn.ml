@@ -1,0 +1,80 @@
+#titlePage {
+  background: linear-gradient(45deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+  background: -webkit-linear-gradient(45deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);background
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#e9b7ce", endColorstr="#d3f3f1", GradientType=1 );filter
+}
+
+#projects {
+  /* github contrib graph left vertical */
+  /* Project list - Name, description, language logo */
+
+  background: linear-gradient(45deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+  background: -webkit-linear-gradient(45deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f6d5f7", endColorstr="#fbe9d7", GradientType=1 );
+
+}
+
+.pane {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  left: 0;
+
+}
+
+.pane > img {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 100px;
+  height: 30px;
+  /* TODO: Change width/height */
+}
+
+.mvDown {
+  font-size: 50px;
+  color: #888888;
+  position: absolute;
+  left: calc(50vw - 25px);
+  right: 0;
+  bottom: 7vh;
+  cursor: pointer;
+
+  user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+
+    -ms-user-select: none;
+
+  -webkit-animation: bob 3s infinite;
+          animation: bob 3s infinite;
+
+}
+
+@keyframes bob {
+  0%, 50%, 100% {
+    bottom: 7%;
+  }
+  25% {
+    bottom: 5%
+  }
+}
+
+@-webkit-keyframes bob {
+  0%, 50%, 100% {
+    bottom: 7%;
+  }
+  25% {
+    bottom: 5%
+  }
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
