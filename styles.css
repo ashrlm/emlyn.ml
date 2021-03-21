@@ -26,7 +26,7 @@
 }
 
 #socialLst > div > a {
-  font-size: 2vw;
+  font-size: min(4vh, 5vw);
   color: #888888;
   font-family: "Lato", sans-serif;
   position: relative;
@@ -52,8 +52,8 @@
 
 .title {
   display: block;
-  font-size: 5vw;
-  color: #aaaaaa;
+  font-size: min(7vh, 6vw);
+  color:;
   position: relative;
   top: 20%;
   font-family: "Lato", sans-serif;
