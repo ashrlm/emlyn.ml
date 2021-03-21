@@ -25,12 +25,13 @@
   right: 5vw;
 }
 
-#socialLst > div > span {
+#socialLst > div > a {
   font-size: 2vw;
   color: #888888;
   font-family: "Lato", sans-serif;
   position: relative;
-  left: 5vw
+  left: 5vw;
+  text-decoration: none
 }
 
 .pane {
