@@ -2,7 +2,7 @@
   background: linear-gradient(45deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
   background: -webkit-linear-gradient(45deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);background
 
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#e9b7ce", endColorstr="#d3f3f1", GradientType=1 );filter
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#e9b7ce", endColorstr="#d3f3f1", GradientType=1 );filterfilterfilter
 }
 
 #projects {
@@ -42,11 +42,10 @@
   bottom: 7vh;
   cursor: pointer;
 
-  user-select: none;
-    -moz-user-select: -moz-none;
-    -webkit-user-select: none;
-
-    -ms-user-select: none;
+    user-select: none;
+      -moz-user-select: -moz-none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
 
   -webkit-animation: bob 3s infinite;
           animation: bob 3s infinite;
