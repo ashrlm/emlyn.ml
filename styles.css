@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Lato';
   src: url('./res/Lato-Thin.woff') format("woff"),
-       url('./res/Lato-Thin.ttf') format("truetype")  
+       url('./res/Lato-Thin.ttf') format("truetype")
 }
 
 #titlePage {
@@ -12,6 +12,11 @@
 #socials {
   background: linear-gradient(45deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
   background: -webkit-linear-gradient(45deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+}
+
+#projects {
+  background: linear-gradient(-45deg, hsla(11, 82%, 87%, 1) 0%, hsla(299, 85%, 90%, 1) 100%);
+  background: -webkit-linear-gradient(-45deg, hsla(11, 62%, 87%, 1) 0%, hsla(299, 65%, 90%, 1) 100%);
 }
 
 #socialLst {
